@@ -1,1 +1,44 @@
-Hello World!
+id attribute values
+-------------------
+all_finals - the list of all the NBA Finals
+results_finals - the search results in list form of NBA Finals that match a query
+results_finals_games - the search results in list form of games in NBA Finals that match a query
+results_finals_games_quarter - the search results in list form of quarters in games of NBA Finals that match a query
+
+
+class attribute values
+----------------------
+finals - list items that are consisting of finals entities
+games - list items that are games entities
+quarters - list items that are quarters in games entities
+
+winner - Winning team of a NBA Finals series
+loser - Losing team of a NBA Finals series
+series_score - Final game count of series
+
+game_winner - Winning team of a NBA Finals game
+game_loser - Losing team of a NBA finals game
+game_score - Final game score
+game_player_name - Player name 
+game_player_pts - Player points in game
+game_player_reb - Player rebounds in game
+game_player_ast - Player assists in game
+game_player_stl - Player steals in game
+game_player_blk - Player blocks in game
+
+quarter_winner - Team winning in the quarter
+quarter_loser - Team losing in the quarter
+quarter_score - Score of only this quarter
+quarter_player_name - Player name in quarter
+quarter_player_pts - Player points in quarter
+quarter_player_reb - Player rebounds in quarter
+quarter_player_ast - Player assists in quarter
+quarter_player_stl - Player steals in quarter
+quarter_player_blk - Player blocks in quarter
+
+
+rel attribute values
+--------------------
+year_finals - Page that contains content of a NBA Finals
+year_finals_game - Page that contains content of a game in NBA Finals
+year_finals_quarter - Page that contains content of a Quarter in Game of NBA FInals
