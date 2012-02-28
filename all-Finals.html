@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <title>All NBA Finals</title>
+  </head>
+  <body>
+    <h1>All NBA Finals</h1>
+	<ul id="all_finals">
+      <li class="finals">
+        <a href="year.html" rel="year_finals">2011 NBA Finals Series</a>, 
+        <span class="winner">Dallas Mavericks</span> vs.  
+        <span class="loser">Miami Heat</span>, 
+		<span class="series_score">4-2</span>
+      </li>
+      <li class="finals">
+        <a href="year.html" rel="year_finals">2010 NBA Finals Series</a>, 
+        <span class="winner">Los Angeles Lakers</span> vs.  
+        <span class="loser">Boston Celtics</span>, 
+		<span class="series_score">4-3</span>
+      </li>
+	  <li class="finals">
+        <a href="year.html" rel="year_finals">2009 NBA Finals Series</a>, 
+        <span class="winner">Los Angeles Lakers</span> vs.  
+        <span class="loser">Orlando Magic</span>, 
+		<span class="series_score">4-1</span>
+      </li>
+    </ul>
+  </body>
+  
+  <h3>Add a new NBA Finals</h3>
+  <form id="add-year_finals" name="input" action="addfinals.html" method="post">
+		<p>Year: <input type="text" name="year_finals" /></p>
+		<p>Winner: <input type="text" name="winner" /></p>
+		<p>Loser: <input type="text" name="winner" /></p>
+		<p>Series Score: <input type="text" name="series_score" /></p>
+		<input type="submit" name="submit" value="Submit" />
+	</form>
+</html>
